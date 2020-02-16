@@ -9,6 +9,9 @@ void ShowErrorMessage(string msg) {
 }
 
 int main(void) {
+	// greeting message, version
+	cout << "TCP Echo program : Server ver 1.0" << endl;
+
 	WSADATA wsaData;
 	SOCKET serverSocket, clientSocket;
 	SOCKADDR_IN serverAddress, clientAddress;
